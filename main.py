@@ -21,11 +21,11 @@ time.sleep(5)
 
 # Preencher o formulário
 py.click(x=276, y=484)
-py.write("Roldan")
+py.write("XXXXXXX") #Coloque o nome da pessoa
 py.press("tab")
-py.write("roldan.eng.softaware@gmail.com")
+py.write("XXXXXXXXX@gmail.com") #Coloque o e-mail
 py.press('tab')
-py.write("16992406202")
+py.write("XXXXXXXX") #coloque o telefone
 py.press('tab')
 
 # Enviar o formulário
