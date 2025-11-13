@@ -19,4 +19,21 @@ py.press("enter")
 # Aguardar um tempo para carregar o site
 time.sleep(5)
 
-# coletar os dados 
+# Preencher o formulário
+py.click(x=276, y=484)
+py.write("Roldan")
+py.press("tab")
+py.write("roldan.eng.softaware@gmail.com")
+py.press('tab')
+py.write("16992406202")
+py.press('tab')
+
+# Enviar o formulário
+py.press('enter')
+
+# Aguardar um tempo para carregar a pagina
+time.sleep(5)
+
+# Voltar para o terminal
+py.hotkey("alt", "tab")
+print('Automação finalizada!')
